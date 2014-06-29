@@ -13,21 +13,21 @@
   <script>
   var drawText = function(){
     var ctx = document.querySelector("#canvas-area").getContext("2d");
-    ctx.fillStyle    = "red";
+    ctx.fillStyle    = "pink";
     ctx.font         = "72px Monofett, sans-serif";
-    ctx.fillText("I love WebFonts", 100 , 100);
+    ctx.fillText("I love WebFonts", 10 , 100);
   };
   window.onload = drawText;
   </script>
 </head>
 <body>
-  <canvas id="canvas-area" width="800" height="250"></canvas>
+  <canvas id="canvas-area" width="600" height="150"></canvas>
   <pre>
 var drawText = function(){
   var ctx = document.querySelector("#canvas-area").getContext("2d");
-  ctx.fillStyle    = "red";
+  ctx.fillStyle    = "pink";
   ctx.font         = "72px Monofett, sans-serif";
-  ctx.fillText("I love WebFonts", 100 , 100);
+  ctx.fillText("I love WebFonts", 10 , 100);
 };
 window.onload = drawText;    
   </pre>

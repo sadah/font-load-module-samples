@@ -6,6 +6,7 @@
 ## Samples
 
 * [FontFace#load](http://sadah.github.io/font-loader-samples/FontFace_load.html)
+* [FontFaceSet#Events](http://sadah.github.io/font-loader-samples/FontFaceSet_Events.html)
 * [FontFaceSet#load](http://sadah.github.io/font-loader-samples/FontFaceSet_load.html)
 * [FontFaceSet#check](http://sadah.github.io/font-loader-samples/FontFaceSet_check.html)
 * [FontFaceSet#ready](http://sadah.github.io/font-loader-samples/FontFaceSet_ready.html)
