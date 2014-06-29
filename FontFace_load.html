@@ -39,6 +39,18 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
     </div>
+    <pre>
+var f = new FontFace(
+  "Lobster",
+  "url(http://fonts.gstatic.com/s/lobster/v9/NIaFDq6p6eLpSvtV2DTNDQLUuEpTyoUstqEm5AMlJo4.woff)",
+  {}
+);
+
+f.load().then(function (loadedFace) {
+  document.fonts.add(loadedFace);
+  document.querySelector(".lorem").style.fontFamily = "Lobster, serif";
+});
+    </pre>
   </article>
 </body>
 </html>

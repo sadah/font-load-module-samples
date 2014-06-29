@@ -35,6 +35,13 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
     </div>
+    <pre>
+console.log(document.fonts.check("2em Lobster")); // => false
+
+document.fonts.ready().then(function(fontFaceSet) {
+  console.log(fontFaceSet.check("2em Lobster")); // => true
+});
+    </pre>
   </article>
 </body>
 </html>
