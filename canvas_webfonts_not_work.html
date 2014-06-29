@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Canvas & WebFonts(not work)</title>
+  <link href="http://fonts.googleapis.com/css?family=Monofett" rel="stylesheet" type="text/css" />
+  <style>
+  #canvas-area {
+    border-radius: 4px;
+    border: 1px solid #bbb;
+  }
+  </style>
+  <script>
+  var drawText = function(){
+    var ctx = document.querySelector("#canvas-area").getContext("2d");
+    ctx.fillStyle    = "red";
+    ctx.font         = "72px Monofett, sans-serif";
+    ctx.fillText("I love WebFonts", 300 , 100);
+  };
+  window.onload = drawText;
+  </script>
+</head>
+<body>
+  <canvas id="canvas-area" width="800" height="250"></canvas>
+</body>
+</html>
