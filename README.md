@@ -5,11 +5,11 @@
 
 ## Samples
 
-* [FontFace#load](http://sadah.github.io/font-loader-samples/FontFace_load.html)
-* [FontFaceSet#Events](http://sadah.github.io/font-loader-samples/FontFaceSet_Events.html)
-* [FontFaceSet#load](http://sadah.github.io/font-loader-samples/FontFaceSet_load.html)
-* [FontFaceSet#check](http://sadah.github.io/font-loader-samples/FontFaceSet_check.html)
-* [FontFaceSet#ready](http://sadah.github.io/font-loader-samples/FontFaceSet_ready.html)
-* [Canvas & WebFonts(not work)](http://sadah.github.io/font-loader-samples/canvas_webfonts_not_work.html)
-* [Canvas & WebFonts](http://sadah.github.io/font-loader-samples/canvas_webfonts.html)
+* [FontFace#load](http://sadah.github.io/font-load-module-samples/FontFace_load.html)
+* [FontFaceSet#Events](http://sadah.github.io/font-load-module-samples/FontFaceSet_Events.html)
+* [FontFaceSet#load](http://sadah.github.io/font-load-module-samples/FontFaceSet_load.html)
+* [FontFaceSet#check](http://sadah.github.io/font-load-module-samples/FontFaceSet_check.html)
+* [FontFaceSet#ready](http://sadah.github.io/font-load-module-samples/FontFaceSet_ready.html)
+* [Canvas & WebFonts(not work)](http://sadah.github.io/font-load-module-samples/canvas_webfonts_not_work.html)
+* [Canvas & WebFonts](http://sadah.github.io/font-load-module-samples/canvas_webfonts.html)
 

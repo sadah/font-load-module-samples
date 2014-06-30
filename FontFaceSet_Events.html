@@ -11,17 +11,19 @@
     }
   </style>
   <script>
-    document.fonts.addEventListener('loading', function() {
-      console.log("loading");
-    });
+    if(document.fonts){
+      document.fonts.addEventListener('loading', function() {
+        console.log("loading");
+      });
 
-    document.fonts.addEventListener('loadingdone', function() {
-      console.log("loadingdone");
-    });
+      document.fonts.addEventListener('loadingdone', function() {
+        console.log("loadingdone");
+      });
 
-    document.fonts.addEventListener('loadingerror', function() {
-      console.log("loadingerror");
-    });
+      document.fonts.addEventListener('loadingerror', function() {
+        console.log("loadingerror");
+      });
+    }
   </script>
 </head>
 <body>
